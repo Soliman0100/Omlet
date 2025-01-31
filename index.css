@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+ /* font-family: "Young Serif", serif; */
+ /* font-family: "Outfit", serif; */
+ /* *{
+    margin: 0;
+    padding: 0;
+ } */
+ body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+background-color: hsl(30, 54%, 90%);
+font-family: "Outfit", serif; 
+ }
+ .container{
+    margin: 100px 0;
+   width: 50%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+ }
+@media (max-width:767px) {
+   .container{
+      width: 100%;
+      margin: 0;
+   }
+}
+ img{
+    width: 100%;
+    border-radius: 15px;
+ }
+ h1{
+    font-family: "Young Serif", serif;
+    font-size: 35px;
+ }
+ p{
+color: #777; 
+margin-bottom: 30px;
+}
+h2{
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: normal;
+    font-size: 25px;
+}
+li{
+   margin-bottom: 10px;
+}
+.Preparation{
+    padding: 10px;
+    background-color: rgb(255 247 251);
+    border-radius: 15px;
+}
+.Preparation h3{
+   color: hsl(14, 45%, 36%);
+}
+.Preparation span{
+   font-weight: bold;
+}
+ul li::marker{
+   color: hsl(14, 45%, 36%);
+  font-size: 15px;
+ }
+ ul li{
+   color: hsl(30, 10%, 34%);
+   padding-left: 12px;
+}
+.ingred,
+.Instructions{
+   padding-bottom: 30px;
+   border-bottom: 1px solid #77777752;
+}
+.Instructions ol{
+   list-style-type: decimal
+}
+ ol li::marker{
+  color: hsl(14, 45%, 36%);
+  font-weight:bold ;
+}
+.Instructions ol li{
+   padding-left: 20px;
+   margin-bottom: 15px;
+}
+.last-text .nurition{
+   margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d3d3d3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-text .nurition :nth-child(1){
+width: 90px;
+text-align: start;
+   padding-left: 25px;
+}
+.last-text .nurition :nth-child(2){
+   width: 90px;
+   text-align: start;
+   color: hsl(14, 45%, 36%);
+}
